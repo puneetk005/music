@@ -1,0 +1,13 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+html, body{
+    @extend .h-100;
+    .bg-banner{
+        height: calc(100vh - 3.6rem);
+    }
+    .play-list{
+        .listing{
+            max-height: 60vh ;
+        }
+    }
+}
